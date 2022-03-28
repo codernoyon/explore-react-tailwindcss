@@ -3,9 +3,30 @@ import Card from '../Card/Card';
 
 const Pricing = () => {
     const pricing = [
-        {id: 1, name: "Free", price: 0},
-        {id: 2, name: "Regular", price: 9.99},
-        {id: 3, name: "Premium", price: 29.99},
+        {id: 1, name: "Free", price: 0, benifits: [
+            "React spring",
+            "Framar Motion",
+            "React Transition",
+            "React Motion",
+            "React Motion",
+            "React Motion",
+        ]},
+        {id: 2, name: "Regular", price: 9.99, benifits: [
+            "lifetime use",
+            "use daily a limit",
+            "daily user can use",
+            "Styled Compotent",
+            "Styled Compotent",
+            "Styled Compotent",
+        ]},
+        {id: 3, name: "Premium", price: 29.99, benifits: [
+            "lifetime use",
+            "use daily a limit",
+            "daily user can use",
+            "React Reveal",
+            "React Reveal",
+            "React Reveal",
+        ]},
     ]
     return (
         <section className='mt-24 w-5/6 mx-auto'>
